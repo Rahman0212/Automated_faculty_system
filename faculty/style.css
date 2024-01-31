@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 250px;
+    /* background-color: #333; */
+    /* background-color: #ffb199; */
+    background-image:linear-gradient(to bottom right, #ff0844,#ffb199);
+    color: #fff;
+    padding-top: 20px;
+}
+
+.sidenav h2 {
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    color: #125b50;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: #A5747A;
+    color: #fff;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    background: url(./20221013_socialwork_classroom_50.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h1{
+    background: linear-gradient(to right, #330867 0%, #330867 100%);
+    
+    background-clip: text;
+    color: transparent;
+    color: #fff;
+}
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
